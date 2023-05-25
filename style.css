@@ -1,0 +1,103 @@
+*{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.youtube{
+  color:white;
+  display:inline-block;
+  border:3px solid greenyellow;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 3px;
+
+}
+
+.textbox{
+  width: 60vw;
+  height: 30px;
+  border-color: blueviolet;
+  border-width: 3px;
+  border-radius: 4vh;
+  text-align: start;
+  padding-left: 2vw;
+  font-size: 3vh;
+  display: block;
+  margin-bottom: 2vh;
+  display: inline-block;
+  margin-left: 1vw;
+}
+
+#video{
+  display: inline-block;
+  margin-top: 3px;
+  margin-right: 3px;
+  margin-bottom: 2vh;
+  transition: transform 2s;
+}
+
+#video:hover{
+  transform: scale(1.1);
+}
+
+#info{
+  margin-top: 1vw;
+}
+
+.image{
+  width: 300px;
+  object-fit: contain;
+  border: solid;
+  border-color: firebrick;
+  border-width: 3px;
+  border-radius: 14px;
+  transition: transform .2s;
+}
+.image:hover{
+  transform: scale(1.1);
+}
+
+
+#dp{
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 5px;
+  margin-left: 6px;
+
+}
+
+.dp{
+  width: 40px;
+  object-fit: fill;
+  border-radius: 100px;
+  
+  
+}
+
+#title{
+  display:inline-block;
+}
+
+.videoname{
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 2px;
+  color: white;
+}
+
+.channelname{
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 4px;
+  color: white;
+}
+
+.videoviews{
+  margin-bottom: 2px;
+  color: white;
+}
+
+
+
